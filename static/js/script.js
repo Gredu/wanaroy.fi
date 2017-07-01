@@ -23,9 +23,6 @@ let frontBackgrounds = [
 // front
 Array.from(document.getElementsByClassName('front-a')).forEach(function(e, i) {
   e.onclick  = function() {
-    console.log('link: ' + e.innerHTML)
-    console.log('index: ' + i)
-    console.log('put image: ' + frontBackgrounds[i])
     document.getElementById('jumbotron').style.backgroundImage = 'url(' + frontBackgrounds[i] + ')'
   }
 })
