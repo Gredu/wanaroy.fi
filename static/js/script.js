@@ -24,7 +24,7 @@ let frontBackgrounds = [
 Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
   let articles = document.getElementsByTagName('article')
   e.onclick  = () => {
-    document.getElementById('jumbotron').style.backgroundImage = 'url(' + frontBackgrounds[i] + ')'
+    document.getElementById('jumbotron').style.backgroundImage = `url(${frontBackgrounds[i]})`
     Array.from(articles).forEach((e) => {
       e.style.display = 'none'
     })
