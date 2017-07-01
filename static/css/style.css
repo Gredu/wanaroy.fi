@@ -106,6 +106,7 @@ article {
   position: fixed;
   overflow-y: auto;
   overflow-x: hidden;
+  z-index: 999;
 }
 #main {
   height:100%;
