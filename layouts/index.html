@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Parisienne|Satisfy" rel="stylesheet"> 
+    <title>Wanaroy</title>
+
+  </head>
+
+  <body>
+
+    <div class="front-display">
+
+      <div id="jumbotron" class="jumbotron">
+        <nav class="navbar navbar-default navbar-jumbotron">
+          <ul id="nav" class="nav navbar-nav">
+            <li><a class="front-a" href="#">Etusivu</a></li>
+            <li><a class="front-a" href="#">Yritys</a></li>
+            <li><a class="front-a" href="#">Yhteystiedot</a></li>
+            <li><a class="front-a" href="#">Aukioloajat</a></li>
+          </ul>
+        </nav>
+        <div class="container">
+          <h1>Hello, world!</h1>
+          <p>...</p>
+          <p><a class="btn btn-primary btn-lg" href="#" onclick="frontOut()" role="button">Learn more</a></p>
+          <div id="front-footer-div">
+            <a id="front-menu" href="#" onclick="frontOut()">Menu<br />
+              <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row-offcanvas row-offcanvas-left">
+      <div id="sidebar" class="sidebar-offcanvas">
+        <div class="col-md-12 hide-on-start">
+          <h3>Sidebar (fixed)</h3>
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <!-- <div class="col&#45;md&#45;12"> -->
+        <!--   <p class="visible&#45;xs"> -->
+        <!--   <button type="button" class="btn btn&#45;primary btn&#45;xs" data&#45;toggle="offcanvas"><i class="glyphicon glyphicon&#45;chevron&#45;left"></i></button> -->
+        <!--   </p> -->
+        <!--   <h2>Fixed + Fluid Bootstrap Template with Off&#45;canvas Sidebar</h2> -->
+        <!--   <div class="row"> -->
+        <!--     <div class="col&#45;md&#45;12"><div class="well"><p>Shrink the browser width to make the sidebar collapse off canvase.</p></div></div> -->
+        <!--   </div> -->
+        <!--   <div class="row"> -->
+        <!--     <div class="col&#45;md&#45;4"><div class="well"><p>4 cols</p></div></div> -->
+        <!--     <div class="col&#45;md&#45;4"><div class="well"><p>4 cols</p></div></div> -->
+        <!--     <div class="col&#45;md&#45;4"><div class="well"><p>4 cols</p></div></div> -->
+        <!--   </div> -->
+        <!--   <div class="row"> -->
+        <!--     <div class="col&#45;lg&#45;6 col&#45;sm&#45;6"><div class="well"><p>6 cols, 6 small cols</p></div></div> -->
+        <!--     <div class="col&#45;lg&#45;6 col&#45;sm&#45;6"><div class="well"><p>6 cols, 6 small cols</p></div></div> -->
+        <!--   </div> -->
+        <!--   <div class="row"> -->
+        <!--     <div class="col&#45;lg&#45;4 col&#45;sm&#45;6"><div class="well">4 cols, 6 small cols</div></div> -->
+        <!--     <div class="col&#45;lg&#45;4 col&#45;sm&#45;6"><div class="well">4 cols, 6 small cols</div></div> -->
+        <!--     <div class="col&#45;lg&#45;4 col&#45;sm&#45;12"><div class="well">4 cols, 12 small cols</div></div> -->
+        <!--   </div> -->
+          <div class="row">
+            <div class="col-md-12 hide-on-start menu-container">
+              <h2>Alkuruuat<br /><span>Appetizers</span></h2>
+              <table class="table table-hover">
+                <tr>
+                  <td class="food-id"> A01. </td>
+                  <td class="food-name">Fish Cake 6 kpl </td>
+                  <td>6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A02. 	</td>
+                  <td class="food-name">Kevätkääryleitä 2 kpl Spring Rolls 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A03. 	</td>
+                  <td class="food-name">Som Tam Tulinen papaijasalaatti Spicy green papaya salad 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A04. 	</td>
+                  <td class="food-name">Tomyam Kung Tulinen katkarapukeitto Spicy soup with prawns 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A05. 	</td>
+                  <td class="food-name">Tomyam Kai Tulinen kanakeitto Spicy soup with chicken 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A06. 	</td>
+                  <td class="food-name">Tom Kha Kai Kanakeitto kookosmaidolla Chicken soup with coconut milk 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A07. 	</td>
+                  <td class="food-name">Tom Kha Kung Katkarapukeitto kookosmaidolla Prawn soup with coconut milk 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A08. 	</td>
+                  <td class="food-name">Tomyam Thalee Tulinen äyriäiskeitto Spicy soup with seafood 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A09. 	</td>
+                  <td class="food-name">Yam Wunsen Tulinen lasinuudeli-katkarapusalaatti Spicy salad with glass noodles and prawns 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A10. 	</td>
+                  <td class="food-name">Yam Thalee Tulinen äyriäissalaatti Spicy seafood salad 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+                <tr>
+                  <td class="food-id">A11. 	</td>
+                  <td class="food-name">Kueiy Tiew Nya Riisinuudelikeitto naudanlihalla Soup with rice noodles and beef 	</td>
+                  <td class="food-price">6.50 €</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--/row-offcanvas -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>

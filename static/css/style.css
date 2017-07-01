@@ -1,0 +1,197 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+
+#jumbotron {
+  height: 100vh;
+  background: orange;
+  margin-bottom: 0;
+  padding-top: 0;
+  background-image: url('http://wanaroy.fi/images/gallery/08b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+  /* background: transparent; */
+  transition: background-image 0.2s ease-in-out;
+  -webkit-transition: background-image 0.2s ease-in-out;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.front-display {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  transition: 1s ease-out;
+}
+#front-menu {
+  /* width: 100%; */
+  text-align: center;
+  text-decoration: none;
+  /* color: #ffffff; */
+  /* color: #000000; */
+  color: #b30000;
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 0.9em;
+  /* text-shadow: -1px 0 1px #b30000, 0 1px 1px #b30000, 1px 0 1px #b30000, 0 -1px 1px #b30000 */
+}
+#front-menu:hover {
+  color: #cb0000;
+}
+#front-footer-div {
+  position: absolute;
+  display: flex;
+  top: 88vh;
+  left: 50%;
+}
+.hide-on-start {
+  font-size: 1.8em;
+  display: none;
+}
+/* find better way to do this */
+.menu-container {
+  padding-left: 250px;
+  margin-right: 0;
+  margin-left: 0;
+  /* padding-right: 250px; */
+  /* font-family: 'Tahoma'; */
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  /* font-size: 1.2em; */
+  overflow-x: hidden;
+}
+.table {
+  overflow-x: hidden;
+}
+
+/* sidebar */
+#sidebar {
+  /* width: inherit; */
+  min-width: 220px;
+  max-width: 220px;
+  background-color: #b30000;
+  border-color: #cb0000;
+  border-style: solid;
+  border-width: 0 2px 0 0;
+  float: left;
+  height: 100vh;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#main {
+  height:100%;
+  overflow:auto;
+}
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    width:calc(100% + 220px);
+  }
+    
+  .row-offcanvas-left
+  {
+    left: -220px;
+  }
+
+  .row-offcanvas-left.active {
+    left: 0;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+  }
+}
+
+
+/* navbar */
+.navbar-default {
+  background-color: #b30000;
+  border-color: #cb0000;
+  background-image: none;
+  text-align: center;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-width: 0 0 2px 0;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background-color: #cb0000;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background-color: #cb0000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #cb0000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #cb0000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background-color: #cb0000;
+  }
+}
