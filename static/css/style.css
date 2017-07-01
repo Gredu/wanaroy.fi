@@ -11,6 +11,13 @@ article {
 .article-hide {
   display: none;
 }
+.jumbotron p {
+  font-weight: none;
+  text-shadow: -2px 0 4px #ffffff, 0 1px 4px #ffffff, 2px 0 4px #ffffff, 0 -2px 4px #ffffff
+}
+.jumbotron h1 {
+  text-shadow: -2px 0 4px #ffffff, 0 1px 4px #ffffff, 2px 0 4px #ffffff, 0 -2px 4px #ffffff
+}
 #jumbotron {
   height: 100vh;
   background: orange;
