@@ -78,11 +78,8 @@ article {
   padding-left: 250px;
   margin-right: 0;
   margin-left: 0;
-  /* padding-right: 250px; */
-  /* font-family: 'Tahoma'; */
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  /* font-size: 1.2em; */
   overflow-x: hidden;
+  font-size: 2em;
 }
 .table {
   overflow-x: hidden;
@@ -93,6 +90,7 @@ article {
 }
 .menu-header {
   text-align: center;
+  height: 100%;
 }
 .menu-header > h1 {
   font-size: 2.5em;
@@ -100,6 +98,9 @@ article {
   font-family: 'Dancing Script', cursive;
   font-family: 'Parisienne', cursive;
   font-family: 'Satisfy', cursive;
+}
+.row-menu {
+  height: 8em;
 }
 
 /* sidebar */
