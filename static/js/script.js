@@ -22,7 +22,12 @@ let frontBackgrounds = [
 
 // front
 Array.from(document.getElementsByClassName('front-a')).forEach(function(e, i) {
+  let articles = document.getElementsByTagName('article')
   e.onclick  = function() {
     document.getElementById('jumbotron').style.backgroundImage = 'url(' + frontBackgrounds[i] + ')'
+    Array.from(articles).forEach(function(e) {
+      e.style.display = 'none'
+    })
+    articles[i].style.display = 'block'
   }
 })
