@@ -31,3 +31,6 @@ Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
     articles[i].style.display = 'block'
   }
 })
+
+// TODO remove when menu is done
+frontOut();
