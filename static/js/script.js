@@ -11,7 +11,8 @@ function frontOut() {
 }
 
 // main
-//
+
+// TODO Replace with local when publicing
 let frontBackgrounds = [
   'http://wanaroy.fi/images/gallery/08b.jpg',
   'http://wanaroy.fi/images/gallery/07b.jpg',
