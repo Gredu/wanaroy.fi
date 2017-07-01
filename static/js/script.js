@@ -4,7 +4,7 @@ function frontIn() {
 
 function frontOut() {
   // or just don't display the scroll?
-  Array.from(document.getElementsByClassName('hide-on-start')).forEach(function(e) {
+  Array.from(document.getElementsByClassName('hide-on-start')).forEach((e) => {
     e.style.display = 'block'
   })
   document.getElementsByClassName('front-display')[0].style.transform = 'translate(0, -100%)'
@@ -21,11 +21,11 @@ let frontBackgrounds = [
 ]
 
 // front
-Array.from(document.getElementsByClassName('front-a')).forEach(function(e, i) {
+Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
   let articles = document.getElementsByTagName('article')
-  e.onclick  = function() {
+  e.onclick  = () => {
     document.getElementById('jumbotron').style.backgroundImage = 'url(' + frontBackgrounds[i] + ')'
-    Array.from(articles).forEach(function(e) {
+    Array.from(articles).forEach((e) => {
       e.style.display = 'none'
     })
     articles[i].style.display = 'block'
