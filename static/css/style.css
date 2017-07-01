@@ -87,6 +87,10 @@ article {
 .table {
   overflow-x: hidden;
 }
+.row-menu {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /* sidebar */
 #sidebar {
