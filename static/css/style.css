@@ -79,14 +79,16 @@ article {
   margin-right: 0;
   margin-left: 0;
   overflow-x: hidden;
-  font-size: 2em;
 }
 .table {
-  overflow-x: hidden;
+  width: 70%;
+  margin: 0px auto;
+  float: none;
 }
-.row-menu {
-  margin-left: 0;
-  margin-right: 0;
+.table > tbody > tr > td {
+  border-top: 0;
+  /* border-bottom: 2px dotted  #b30000; */
+  vertical-align: middle;
 }
 .menu-header {
   text-align: center;
@@ -98,10 +100,6 @@ article {
   font-family: 'Dancing Script', cursive;
   font-family: 'Parisienne', cursive;
   font-family: 'Satisfy', cursive;
-}
-.menu-list {
-  margin-left: 2em;
-  margin-right: 2em;
 }
 .row-menu {
   height: 8em;
