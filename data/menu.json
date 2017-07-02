@@ -2,6 +2,7 @@
   {
     "name_fi": "Alkuruoka",
     "name_en": "Appetizers",
+    "name_th": "Appetizers",
     "items": [
       {
         "id": "A01",
@@ -96,6 +97,7 @@
   {
     "name_fi": "Ankka",
     "name_en": "Duck",
+    "name_th": "Duck",
     "items": [
       {
         "id": "42",
@@ -158,6 +160,7 @@
   {
     "name_fi": "Äyriäiset",
     "name_en": "Seafood",
+    "name_th": "Seafood",
     "items": [
       { 
         "id": "49",
@@ -236,6 +239,7 @@
   {
     "name_fi": "Kala",
     "name_en": "Fish",
+    "name_th": "Fish",
     "items": [
       {
         "id": "36",
@@ -290,6 +294,7 @@
   {
     "name_fi": "Kana",
     "name_en": "Chicken",
+    "name_th": "Chicken",
     "items": [
       { 
         "id": "1",
@@ -408,6 +413,7 @@
   {
     "name_fi": "Kasvisruat",
     "name_en": "Vegetarian (Tofu)",
+    "name_th": "Vegetarian (Tofu)",
     "items": [
       {
         "id": "58",
@@ -470,6 +476,7 @@
   {
     "name_fi": "Naudanliha",
     "name_en": "Beef",
+    "name_th": "Beef",
     "items": [
       {
         "id": "15",
@@ -564,6 +571,7 @@
   {
     "name_fi": "Porsaanliha",
     "name_en": "Pork",
+    "name_th": "Pork",
     "items": [
       { 
         "id": "26",
@@ -650,6 +658,7 @@
   {
     "name_fi": "Erikoismenu",
     "name_en": "Special menu",
+    "name_th": "Special menu",
     "items": [
       {
         "id": "E1",
@@ -736,6 +745,7 @@
   {
     "name_fi": "Jälkiruoat",
     "name_en": "Desserts",
+    "name_th": "Desserts",
     "items": [
       {
         "id": "D1",
