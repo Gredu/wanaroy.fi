@@ -121,12 +121,28 @@ article {
   border-color: #cb0000;
   border-style: solid;
   border-width: 0 2px 0 0;
+  color: #ffffff;
   float: left;
   height: 100vh;
   position: fixed;
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 999;
+}
+#sidebar a {
+  color: inherit;
+  padding: 0;
+}
+#sidebar a:hover {
+  background-color: initial;
+  color: #650000;
+}
+#sidebar ul {
+  margin-top: 1.2em;
+  margin-left: 20px;
+}
+#sidebar h1 {
+  font-size: 58px;
 }
 #main {
   height:100%;
