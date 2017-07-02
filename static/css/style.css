@@ -107,6 +107,16 @@ article {
 .glyphicon {
   font-size: 0.8em;
 }
+#preference-language li {
+  display: inline;
+  padding-left: 0;
+  font-size: 0.7em;
+  font-family: tahoma;
+}
+#preference-language ul {
+  margin-left: 0;
+  margin-top: 0;
+}
 
 /* sidebar */
 #sidebar {
