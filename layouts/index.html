@@ -92,16 +92,9 @@
         <div class="col-md-12 hide-on-start">
           <h3>Sidebar (fixed)</h3>
           <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
+            {{ range .Site.Data.menu }}
+            <li><a href="#">{{ .name_fi }}</a></li>
+            {{ end }}
           </ul>
         </div>
       </div>
