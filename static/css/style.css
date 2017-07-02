@@ -83,7 +83,7 @@ article {
 .table {
   width: 70%;
   margin: 0px auto;
-  float: none;
+  /* float: none; */
 }
 .table > tbody > tr > td {
   border-top: 0;
@@ -103,6 +103,10 @@ article {
 }
 .row-menu {
   height: 8em;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* sidebar */
