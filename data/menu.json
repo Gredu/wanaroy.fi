@@ -8,7 +8,7 @@
         "id": "A01",
         "name_fi": "Fish Cake",
         "name_en": "Fish Cake",
-        "name_th": "",
+        "name_th": "Fish Cake",
         "amount": "6",
         "price": "6.50"
       },
@@ -16,7 +16,7 @@
         "id": "A02",
         "name_fi": "Kevätkääryleitä",
         "name_en": "Spring Rolls",
-        "name_th": "",
+        "name_th": "Spring Rolls",
         "amount": "2",
         "price": "6.50"
       },
@@ -751,7 +751,7 @@
         "id": "D1",
         "name_fi": "Friteerattua banaania ja jäätelöä" ,
         "name_en": "Deep fried banana with ice cream" ,
-        "name_th": "",
+        "name_th": "Deep fried banana with ice cream" ,
         "amount": "",
         "price": "5.00"
       },
@@ -759,7 +759,7 @@
         "id": "D2",
         "name_fi": "Friteerattua ananasta ja jäätelöä" ,
         "name_en": "Deep fried pineapple with ice cream" ,
-        "name_th": "",
+        "name_th": "Deep fried pineapple with ice cream" ,
         "amount": "",
         "price": "5.00"
       },
@@ -767,7 +767,7 @@
         "id": "D3",
         "name_fi": "Banana split",
         "name_en": "Banana split",
-        "name_th": "",
+        "name_th": "Banana split",
         "amount": "",
         "price": "5.00"
       },
@@ -775,7 +775,7 @@
         "id": "D4",
         "name_fi": "Vaniljajäätelö, 2 palloa" ,
         "name_en": "Vanilla ice cream, 2 scoops" ,
-        "name_th": "",
+        "name_th": "Vanilla ice cream, 2 scoops" ,
         "amount": "",
         "price": "3.00"
       }
