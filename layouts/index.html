@@ -99,8 +99,9 @@
           </ul>
           <ul id="sidebar-menu" class="nav">
             {{ range .Site.Data.menu }}
-            <li class="sidebar-menu-list sidebar-menu-list-fi"><a href="#">{{ .name_fi }}</a></li>
-            <li class="sidebar-menu-list sidebar-menu-list-en hide"><a href="#">{{ .name_en }}</a></li>
+            <li class="lang lang-fi"><a href="#">{{ .name_fi }}</a></li>
+            <li class="lang lang-en hide"><a href="#">{{ .name_en }}</a></li>
+            <li class="lang lang-th hide"><a href="#">{{ .name_en }}</a></li>
             {{ end }}
           </ul>
         </div>

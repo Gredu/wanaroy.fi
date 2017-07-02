@@ -36,8 +36,8 @@ Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
 Array.from(document.getElementsByClassName('preference-language')).forEach((e) => { 
   e.onclick = () => {
     const selectedLanguage = e.innerHTML
-    Array.from(document.getElementsByClassName('sidebar-menu-list')).forEach((e) => {
-      if(e.classList.contains(`sidebar-menu-list-${selectedLanguage}`)) {
+    Array.from(document.getElementsByClassName('lang')).forEach((e) => {
+      if(e.classList.contains(`lang-${selectedLanguage}`)) {
         e.classList.remove('hide')
       } else {
         e.classList.add('hide')
