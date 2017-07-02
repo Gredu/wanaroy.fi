@@ -51,7 +51,6 @@ article {
   position: absolute;
   z-index: 1000;
   transition: 1s ease-out;
-  transition: font-size 0s;
 }
 #front-menu {
   text-align: center;
