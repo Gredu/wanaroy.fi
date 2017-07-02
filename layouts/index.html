@@ -116,7 +116,9 @@
             {{ range .items }}
               <tr>
                 <td>{{ .id }}</td>
-                <td>{{ .name_fi }} {{ .amount }}</td>
+                <td class="lang lang-fi">{{ .name_fi }} {{ .amount }}</td>
+                <td class="lang lang-en hide">{{ .name_en }} {{ .amount }}</td>
+                <td class="lang lang-th hide">{{ .name_th }} {{ .amount }}</td>
                 <td>{{ .price }}</td>
               </tr>
             {{ end }}
