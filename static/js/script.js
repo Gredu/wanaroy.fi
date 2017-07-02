@@ -28,7 +28,7 @@ Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
     Array.from(articles).forEach((e) => {
       e.style.display = 'none'
     })
-    articles[i].style.display = 'block'
+    articles[i].style.display = ' block'
   }
 })
 
