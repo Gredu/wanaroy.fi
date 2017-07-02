@@ -93,13 +93,14 @@
           <h1>Wanaroy</h1>
           <span><span class="glyphicon glyphicon-earphone"> </span> 040 967 0455</span>
           <ul id="preference-language">
-            <li><a href="#">FI</a></li>
-            <li><a href="#">EN</a></li>
-            <li><a href="#">TH</a></li>
+            <li><a href="#" class="preference-language">fi</a></li>
+            <li><a href="#" class="preference-language">en</a></li>
+            <li><a href="#" class="preference-language">th</a></li>
           </ul>
           <ul id="sidebar-menu" class="nav">
             {{ range .Site.Data.menu }}
-            <li><a href="#">{{ .name_fi }}</a></li>
+            <li><a href="#" class="sidebar-menu-list sidebar-menu-list-fi">{{ .name_fi }}</a></li>
+            <li><a href="#" class="sidebar-menu-list sidebar-menu-list-en hide">{{ .name_en }}</a></li>
             {{ end }}
           </ul>
         </div>

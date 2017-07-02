@@ -13,7 +13,7 @@ function frontOut() {
 // main
 
 // TODO Replace with local when publicing
-let frontBackgrounds = [
+const frontBackgrounds = [
   'http://wanaroy.fi/images/gallery/08b.jpg',
   'http://wanaroy.fi/images/gallery/07b.jpg',
   'http://wanaroy.fi/images/gallery/06b.jpg',
@@ -22,13 +22,27 @@ let frontBackgrounds = [
 
 // front
 Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
-  let articles = document.getElementsByTagName('article')
+  const articles = document.getElementsByTagName('article')
   e.onclick  = () => {
     document.getElementById('jumbotron').style.backgroundImage = `url(${frontBackgrounds[i]})`
     Array.from(articles).forEach((e) => {
       e.style.display = 'none'
     })
     articles[i].style.display = 'block'
+  }
+})
+
+// Language preference in menu sidebar list
+Array.from(document.getElementsByClassName('preference-language')).forEach((e) => { 
+  e.onclick = () => {
+    const selectedLanguage = e.innerHTML
+    Array.from(document.getElementsByClassName('sidebar-menu-list')).forEach((e) => {
+      if(e.classList.contains(`sidebar-menu-list-${selectedLanguage}`)) {
+        e.classList.remove('hide')
+      } else {
+        e.className += ' hide'
+      }
+    })
   }
 })
 
