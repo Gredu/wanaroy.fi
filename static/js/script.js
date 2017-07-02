@@ -40,7 +40,7 @@ Array.from(document.getElementsByClassName('preference-language')).forEach((e) =
       if(e.classList.contains(`sidebar-menu-list-${selectedLanguage}`)) {
         e.classList.remove('hide')
       } else {
-        e.className += ' hide'
+        e.classList.add('hide')
       }
     })
   }
