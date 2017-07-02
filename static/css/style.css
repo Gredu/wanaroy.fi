@@ -108,6 +108,9 @@ article {
   margin-left: 0;
   margin-right: 0;
 }
+.glyphicon {
+  font-size: 0.8em;
+}
 
 /* sidebar */
 #sidebar {
