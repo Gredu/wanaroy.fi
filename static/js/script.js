@@ -47,4 +47,4 @@ Array.from(document.getElementsByClassName('preference-language')).forEach((e) =
 })
 
 // TODO remove when menu is done
-frontOut();
+// frontOut();
