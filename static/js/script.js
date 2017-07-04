@@ -29,6 +29,7 @@ Array.from(document.getElementsByClassName('front-a')).forEach((e, i) => {
       e.style.display = 'none'
     })
     articles[i].style.display = ' block'
+    document.getElementById('wanaroy-logo').className = `logo-${e.innerHTML.toLowerCase()}`
   }
 })
 
