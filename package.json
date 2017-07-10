@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Gredu/wanaroy.fi/issues"
   },
-  "homepage": "https://github.com/Gredu/wanaroy.fi#readme"
+  "homepage": "https://github.com/Gredu/wanaroy.fi#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
+  }
 }
