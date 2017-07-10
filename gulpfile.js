@@ -10,10 +10,26 @@ gulp.task("scss", function () {
     .pipe(gulp.dest("static/css"))
 })
 
+gulp.task("images", function() {
+  gulp.src("src/img/**/*")
+    .pipe(gulp.dest("static/img"))
+})
+
+gulp.task("js", function() {
+  gulp.src("src/js/**/*")
+    .pipe(gulp.dest("static/js"))
+})
+
 // Watch asset folder for changes
 gulp.task("watch", ["scss"], function () {
   gulp.watch("src/scss/**/*", ["scss"])
 })
 
-// Set watch as default task
+// Watch asset folder for changes
+gulp.task("watch", ["scss", "images", "js"], function () {
+  gulp.watch("src/scss/**/*", ["scss"])
+  gulp.watch("src/img/**/*", ["images"])
+  gulp.watch("src/js/**/*", ["js"])
+})
+
 gulp.task("default", ["watch"])
