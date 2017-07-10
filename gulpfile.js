@@ -5,12 +5,8 @@ let gulp         = require("gulp"),
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
   gulp.src("src/scss/**/*.scss")
-    .pipe(sass({
-      outputStyle : "compressed"
-    }))
-    .pipe(autoprefixer({
-      browsers : ["last 20 versions"]
-    }))
+    .pipe(sass({ outputStyle : "compressed" }))
+    .pipe(autoprefixer({ browsers : ["last 20 versions"] }))
     .pipe(gulp.dest("static/css"))
 })
 
