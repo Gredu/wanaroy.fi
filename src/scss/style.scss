@@ -2,9 +2,7 @@ $red: #b30000;
 $red-light: #cb0000;
 
 body {
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Parisienne', cursive;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Dancing Script', 'Parisienne', 'Satisfy';
 }
 article {
   color: $red;
