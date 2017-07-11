@@ -1,13 +1,19 @@
 $red: #b30000;
 $red-light: #cb0000;
 
+// for navbar
+$colDefault     : #ecf0f1;
+$colHighlight   : #ffbbbc;
+$dropDown       : false;
+
+@import 'navbar';
+
 body {
     font-family: 'Dancing Script', 'Parisienne', 'Satisfy';
 }
 article {
   color: $red;
 }
-
 
 .article-hide {
   display: none;
@@ -215,67 +221,6 @@ article {
     position: absolute;
     top: 0;
   }
-}
-
-
-/* navbar */
-.navbar-default {
-  background-color: $red;
-  border-color: $red-light;
-  background-image: none;
-  text-align: center;
-  margin-bottom: 0;
-  border-radius: 0;
-  border-width: 0 0 2px 0;
-}
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #ffbbbc;
-}
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #ffbbbc;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #ffbbbc;
-  background-color: $red-light;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #ffbbbc;
-  background-color: $red-light;
-}
-.navbar-default .navbar-toggle {
-  border-color:$red-light;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: $red-light;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-  color: #ffbbbc;
 }
 
 @media (max-width: 767px) {
