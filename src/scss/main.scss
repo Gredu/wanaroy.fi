@@ -1,13 +1,10 @@
-$green-light: #a59f26;
-$brown: #893f00;
-$green-lightest: #cfce72;
-
-// for navbar
-$colDefault     : #ecf0f1;
-$colHighlight   : #ffbbbc;
-$dropDown       : false;
-
-@import 'navbar';
+@import 'abstracts/variables';
+// @import 'vendors/*';
+// @import 'base/*';
+@import 'layout/navbar';
+// @import 'components/*';
+// @import 'pages/*';
+// @import 'themes/*';
 
 body {
     font-family: 'Dancing Script', 'Parisienne', 'Satisfy';
