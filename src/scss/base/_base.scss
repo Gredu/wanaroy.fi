@@ -2,3 +2,8 @@ body {
     font-family: 'Dancing Script', 'Parisienne', 'Satisfy';
     background-color: $green-lightest;
 }
+
+#main {
+  height:100%;
+  overflow:auto;
+}

@@ -4,7 +4,8 @@
 
 @import 'layout/navbar';
 @import 'layout/front';
-// @import 'components/*';
+
+@import 'components/sidebar';
 // @import 'pages/*';
 // @import 'themes/*';
 
@@ -58,69 +59,3 @@
   font-size: 1.5em;
 }
 
-
-/* sidebar */
-#sidebar {
-  /* width: inherit; */
-  min-width: 220px;
-  max-width: 220px;
-  background-color: $green-light;
-  border-color: $brown;
-  border-style: solid;
-  border-width: 0 2px 0 0;
-  color: #ffffff;
-  float: left;
-  height: 100vh;
-  position: fixed;
-  overflow-y: auto;
-  overflow-x: hidden;
-  z-index: 999;
-}
-#sidebar a {
-  color: inherit;
-  padding: 0;
-  font-size: 1.8em;
-}
-#sidebar a:hover {
-  background-color: initial;
-  color: #650000;
-}
-#sidebar-menu {
-  margin-top: 1.2em;
-  margin-left: 20px;
-}
-#sidebar h1 {
-  font-size: 58px;
-}
-#main {
-  height:100%;
-  overflow:auto;
-}
-
-/*
- * off Canvas sidebar
- * --------------------------------------------------
- */
-@media screen and (max-width: 768px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-    width:calc(100% + 220px);
-  }
-    
-  .row-offcanvas-left
-  {
-    left: -220px;
-  }
-
-  .row-offcanvas-left.active {
-    left: 0;
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-  }
-}
