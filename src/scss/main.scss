@@ -9,7 +9,6 @@
 // @import 'themes/*';
 
 .hide-on-start {
-  font-size: 1.8em;
   display: none;
 }
 /* find better way to do this */
@@ -20,7 +19,8 @@
   overflow-x: hidden;
 }
 .table {
-  width: 70%;
+  font-size: 1.8em;
+  width: 100vw;
   margin: 0px auto;
   /* float: none; */
 }
@@ -43,12 +43,9 @@
 .row-menu {
   height: 8em;
 }
-.glyphicon {
-  font-size: 0.8em;
-}
 #preference-language li {
   display: inline;
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-family: tahoma;
 }
 #preference-language {
@@ -56,6 +53,9 @@
   margin-left: 0;
   margin-top: 0;
   text-transform: uppercase;
+}
+.phone-number {
+  font-size: 1.5em;
 }
 
 
@@ -79,6 +79,7 @@
 #sidebar a {
   color: inherit;
   padding: 0;
+  font-size: 1.8em;
 }
 #sidebar a:hover {
   background-color: initial;
