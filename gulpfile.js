@@ -33,11 +33,6 @@ gulp.task("js", function() {
 })
 
 // Watch asset folder for changes
-gulp.task("watch", ["scss"], function () {
-  gulp.watch("src/scss/**/*", ["scss"])
-})
-
-// Watch asset folder for changes
 gulp.task("watch", ["scss", "images", "js"], function () {
   gulp.watch("src/scss/**/*", ["scss"])
   gulp.watch("src/img/**/*", ["images"])
