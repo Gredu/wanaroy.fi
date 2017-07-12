@@ -1,6 +1,6 @@
 node_modules/
 static/
 public/
-/public
+data/**/hash.*
 .tern-port
 hugo.sh
