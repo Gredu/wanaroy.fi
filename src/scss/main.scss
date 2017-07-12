@@ -2,6 +2,7 @@
 // @import 'vendors/*';
 // @import 'base/*';
 @import 'layout/navbar';
+@import 'layout/front';
 // @import 'components/*';
 // @import 'pages/*';
 // @import 'themes/*';
@@ -14,67 +15,6 @@ article {
   color: $brown;
 }
 
-.article-hide {
-  display: none;
-}
-.jumbotron p {
-  font-weight: none;
-  font-size: 1.7em;
-}
-.jumbotron p a {
-  color: #008900;
-}
-.jumbotron p a:hover {
-  color: $brown;
-  text-decoration: none;
-}
-.jumbotron h1,
-.jumbotron p {
-  text-shadow: -2px 0 .3em #ffffff, 0 1px .3em #ffffff, 2px 0 .3em #ffffff, 0 -2px .3em #ffffff;
-}
-#jumbotron {
-  height: 100vh;
-  background: orange;
-  margin-bottom: 0;
-  padding-top: 0;
-  background-image: url('http://wanaroy.fi/images/gallery/08b.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #ffffff;
-  /* background: transparent; */
-  /* transition: background-image 0.2s ease-in-out; */
-  /* -webkit-transition: background-image 0.2s ease-in-out; */
-}
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-.front-display {
-  width: 100%;
-  position: absolute;
-  z-index: 1000;
-  transition: 1s ease-out;
-}
-#front-menu {
-  text-align: center;
-  text-decoration: none;
-  color: $brown;
-  font-size: 3.5em;
-  font-weight: bold;
-  line-height: 0.9em;
-}
-#front-menu:hover {
-  color: $brown;
-}
-#front-footer-div {
-  position: absolute;
-  display: flex;
-  top: 88vh;
-  left: 50%;
-}
 .hide-on-start {
   font-size: 1.8em;
   display: none;
