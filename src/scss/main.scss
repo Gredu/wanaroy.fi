@@ -1,19 +1,12 @@
 @import 'abstracts/variables';
 // @import 'vendors/*';
-// @import 'base/*';
+@import 'base/base';
+
 @import 'layout/navbar';
 @import 'layout/front';
 // @import 'components/*';
 // @import 'pages/*';
 // @import 'themes/*';
-
-body {
-    font-family: 'Dancing Script', 'Parisienne', 'Satisfy';
-    background-color: $green-lightest;
-}
-article {
-  color: $brown;
-}
 
 .hide-on-start {
   font-size: 1.8em;
