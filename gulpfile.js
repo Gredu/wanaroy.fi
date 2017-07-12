@@ -12,18 +12,24 @@ gulp.task("scss", function () {
     .pipe(autoprefixer({ browsers : ["last 20 versions"] }))
     .pipe(hash())
     .pipe(gulp.dest("static/css"))
+    .pipe(hash.manifest('hash.json'))
+    .pipe(gulp.dest('data/css'))
 })
 
 gulp.task("images", function() {
   gulp.src("src/img/**/*")
     .pipe(hash())
     .pipe(gulp.dest("static/img"))
+    .pipe(hash.manifest('hash.json'))
+    .pipe(gulp.dest('data/img'))
 })
 
 gulp.task("js", function() {
   gulp.src("src/js/**/*")
     .pipe(hash())
     .pipe(gulp.dest("static/js"))
+    .pipe(hash.manifest('hash.json'))
+    .pipe(gulp.dest('data/js'))
 })
 
 // Watch asset folder for changes
