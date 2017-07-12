@@ -1,22 +1,28 @@
 let gulp         = require("gulp"),
     sass         = require("gulp-sass"),
-    autoprefixer = require("gulp-autoprefixer")
+    autoprefixer = require("gulp-autoprefixer"),
+    hash         = require("gulp-hash"),
+    del          = require("del")
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
+  del(["static/css/**/*"])
   gulp.src("src/scss/**/*.scss")
     .pipe(sass({ outputStyle : "compressed" }))
     .pipe(autoprefixer({ browsers : ["last 20 versions"] }))
+    .pipe(hash())
     .pipe(gulp.dest("static/css"))
 })
 
 gulp.task("images", function() {
   gulp.src("src/img/**/*")
+    .pipe(hash())
     .pipe(gulp.dest("static/img"))
 })
 
 gulp.task("js", function() {
   gulp.src("src/js/**/*")
+    .pipe(hash())
     .pipe(gulp.dest("static/js"))
 })
 
