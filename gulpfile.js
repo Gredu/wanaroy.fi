@@ -4,7 +4,6 @@ let gulp         = require("gulp"),
     hash         = require("gulp-hash"),
     del          = require("del")
 
-// Compile SCSS files to CSS
 gulp.task("scss", function () {
   del(["static/css/**/*"])
   gulp.src("src/scss/**/*.scss")
@@ -32,7 +31,6 @@ gulp.task("js", function() {
     .pipe(gulp.dest('data/js'))
 })
 
-// Watch asset folder for changes
 gulp.task("watch", ["scss", "images", "js"], function () {
   gulp.watch("src/scss/**/*", ["scss"])
   gulp.watch("src/img/**/*", ["images"])
