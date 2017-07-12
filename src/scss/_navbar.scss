@@ -1,11 +1,11 @@
 .navbar-default {
-  background-color: $brown;
-  border-color: $green-light;
+  background-color: $green-light;
+  border-color: $brown;
   background-image: none;
   text-align: center;
   margin-bottom: 0;
   border-radius: 0;
-  border-width: 0 0 2px 0;
+  border-width: 2px 0 2px 0;
   .navbar-brand {
     color: $colDefault;
     &:hover, &:focus {
@@ -26,26 +26,26 @@
               color: $colDefault;
               &:hover,  &:focus {
                 color: $colHighlight;
-                background-color: $green-light; }}
+                background-color: $brown; }}
             &.divider {
-              background-color: $green-light;}}}}}
+              background-color: $brown;}}}}}
     @if $dropDown {
       .open .dropdown-menu > .active {
         > a, > a:hover, > a:focus {
           color: $colHighlight;
-          background-color: $green-light; }}}
+          background-color: $brown; }}}
     > .active {
       > a, > a:hover, > a:focus {
         color: $colHighlight;
-        background-color: $green-light; }}
+        background-color: $brown; }}
     > .open {
       > a, > a:hover, > a:focus {
         color: $colHighlight;
-        background-color: $green-light; }}}
+        background-color: $brown; }}}
   .navbar-toggle {
-    border-color: $green-light;
+    border-color: $brown;
     &:hover, &:focus {
-      background-color: $green-light; }
+      background-color: $brown; }
     .icon-bar {
       background-color: $colDefault; }}
   .navbar-collapse,
@@ -64,5 +64,5 @@
     > .active {
       > a, > a:hover, > a:focus {
         color: $colHighlight;
-        background-color: $green-light; }}}
+        background-color: $brown; }}}
 }
