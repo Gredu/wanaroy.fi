@@ -1,21 +1,7 @@
 .article-hide {
   display: none;
 }
-.jumbotron p {
-  font-weight: none;
-  font-size: 1.7em;
-}
-.jumbotron p a {
-  color: #008900;
-}
-.jumbotron p a:hover {
-  color: $brown;
-  text-decoration: none;
-}
-.jumbotron h1,
-.jumbotron p {
-  text-shadow: -2px 0 .3em #ffffff, 0 1px .3em #ffffff, 2px 0 .3em #ffffff, 0 -2px .3em #ffffff;
-}
+
 #jumbotron {
   height: 100vh;
   background: orange;
@@ -25,7 +11,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ffffff;
+  p {
+    font-weight: none;
+    font-size: 1.7em;
+    a {
+      color: #008900;
+      &:hover {
+        color: $brown;
+        text-decoration: none;
+      }
+    }
+  }
+  p, h1 {
+    text-shadow: -2px 0 .3em $front-shadow, 0 1px .3em $front-shadow, 2px 0 .3em $front-shadow, 0 -2px .3em $front-shadow;
+  }
 }
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -46,9 +47,9 @@
   font-size: 3.5em;
   font-weight: bold;
   line-height: 0.9em;
-}
-#front-menu:hover {
-  color: $brown;
+  &:hover {
+    color: $green-light;
+  }
 }
 #front-footer-div {
   position: absolute;
