@@ -3,10 +3,7 @@ function frontIn() {
 }
 
 function frontOut() {
-  // or just don't display the scroll?
-  Array.from(document.getElementsByClassName('hide-on-start')).forEach((e) => {
-    e.style.display = 'block'
-  })
+  document.getElementById('main').style.display = 'block';
   document.getElementsByClassName('front-display')[0].style.transform = 'translate(0, -100%)'
 }
 
