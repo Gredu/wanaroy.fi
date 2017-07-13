@@ -10,9 +10,10 @@
 // @import 'pages/*';
 // @import 'themes/*';
 
-.hide-on-start {
+#main {
   display: none;
 }
+
 /* find better way to do this */
 .menu-container {
   padding-left: 250px;
